@@ -1,3 +1,9 @@
+## Lab: Integrating Kerberos with Cloudera Manager
+
+`/etc/krb5.conf`:
+
+```bash
+$ cat /etc/krb5.conf
 [libdefaults]
 default_realm = ISHTARTEC.COM
 dns_lookup_kdc = false
@@ -15,3 +21,4 @@ ISHTARTEC.COM = {
 kdc = ip-172-31-24-43.eu-central-1.compute.internal
 admin_server = ip-172-31-24-43.eu-central-1.compute.internal
 }
+```

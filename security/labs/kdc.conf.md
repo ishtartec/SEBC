@@ -1,3 +1,9 @@
+## Lab: Integrating Kerberos with Cloudera Manager
+
+`/var/kerberos/krb5kdc/kdc.conf`:
+
+```bash
+$ cat /var/kerberos/krb5kdc/kdc.conf
 [kdcdefaults]
  kdc_ports = 88
  kdc_tcp_ports = 88
@@ -12,3 +18,4 @@
   max_life = 1d
   max_renewable_life = 7d
  }
+```
